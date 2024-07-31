@@ -1,0 +1,103 @@
+<html>
+<style>
+body {
+	font-family: arial, sans-serif;
+}
+</style>
+
+<h3>31/07/2024</h3>
+<p><i>17:18</i>. Acho que por causa da minha falta de habilidade em desenvolvimento me faz pensar por que eu to seguindo essa carreira se eu não sou proficiente
+nisso. Cara, o que eu sou bom é ilegal, eu sou um hacker, sou bom em desvendar a vida das pessoas mas não nisso. Por isso eu ando treinando tanto desenvolvimento
+e mesmo assim, eu só sei python, e olhe lá. Acho que é por isso que eu tô triste.</p>
+
+<p><i>17:15</i>. Enfim, eu não devia estar triste, eu não tenho problemas grandes na minha vida então eu devia estar feliz, acho que eu só estou assim porque acho
+que eu não tô pronto pra faculdade, eu tive uma ideia para ganhar dinheiro, fiz então um site para vender meus serviços de programação em python. Automações, bots
+etc... mas a interface é tão feia, mano, é tão feia que dá vontade de arrancar os olhos fora. Puta merda, coloquei até uns caras elogiando o tralho e tals, mas duvido
+que vai ser suficiente.</p>
+
+<p><i>17:10</i>. Faltam exatamente uma semana para começar a faculdade e serio, que nervoso, hoje eu mal consegui falar com pessoas na rua para pedir uma informação
+de onde fica um lugar e mais cedo quando atendi a minha mãe no telefone do meu irmão eu fiquei nervoso e parado, sem saber oque dizer, poha cara era só dizer "aló".
+Não sei com é meu problema, o que tem de errado comigo? Me faço essa pergunta desde criança, porque me tratavam com uma indiferença que eu não consiguia e ainda
+não consigo explicar, tô falando essas coisas porque estou triste, não consigo emprego e sei lá, tô angustiado. E tem um idiota do meu lado tendo tique de tourrete.</p>
+
+<h3>25/07/2024</h3>
+<p><i>21:41</i>. Para encurtar a historia eu fiquei um mês preparando o ataque até o dia de hoje, quando eu pensei que seria o dia em que eu o faria e iria exigir 
+650 reais em monero, o medo e a consciencia bateu, eu não queria mais fazer e até agora eu não entendo porque eu perdi toda a vontade, o meu esquema de anônimato 
+estavá perfeito não daria errado e mesmo que me fizessem um boletim de ocorrência a policia não iria bater na minha porta. Então por que eu desisti? 
+Porque não valia a pena, não quero fazer esse ataque que vai me dar um dinheiro sujo e fazer ainda o trabalho de lavagem de dinheiro ia ser foda, acho que por isso 
+que eu desisti. E eu também precisava de espaço no meu computador para baixar Starcraft 2.</p>
+
+<p><i>21:38</i>. Foi aí que me veio uma ideia, e se eu usar o RAR para empacotar os arquivos importantes com uma chave de alguns bytes, usando um dos arquivos 
+do software do RAR que empacota os arquivos e pode fazer isso no CMD através de comandos, o ransomware então seria o RAR executado por comando por um arquivo 
+Batch que empacotará os arquivos de programas e arquivos do perfil como documentos e downloads. Depois vou adicionar outro script de decryptor que estará na 
+Desktop para destravar os arquivos com a senha que o usuario passar e então em empacotaria tudo isso em um arquivo SFX isso transformaria esses arquivos em um 
+executável.</p>
+
+<p><i>21:36</i>. Comecei a levar essa ideia mais a serio, então comecei a escrever o ransomware, como seria para um windows 7 então não seria um problema. Só me 
+veio o medo de ser descoberto então foquei todo o plano do hack no anônimato da coisa, fiz isso porque não seria necessario concentrar meus esforços no virus, 
+já que qualquer merda poderia criptografar aqueles arquivos.</p>
+
+<p><i>21:35</i>. Fiquei intrigado e obiviamente os meus instintos ativaram, naquele momento eu pensei: "Cara, como pode ser, se eu pudesse invadir esse computador 
+quer dizer, eu posso invadir esse computador e seria facil, não tem nenhuma dificuldade e daria até para ganhar um dinheiro, talvez um ransomware.". Naquela hora eu 
+só tinha pensado na possibilidade e que poderia realmente dá algum dinheiro e que eu poderia ganhar em monero para poder ficar anônimo.</p>
+
+<p><i>21:32</i>. Hoje tive minha primeira aula do CFC para poder tirar minha carteira de motorista e blá, blá, blá. O que importa mesmo é o pequeno flashback sobre 
+quando eu fui na autoescola o computador que o atendente usou para poder me cadastrar nos exames estavá rodando um Windows 7, UM WINDOWS 7! eu fiquei simplesmente 
+perplexo de pensar que algumas empresas, mesmo que pequenas, utilizam sistemas operacionais antigos, desatualizados e vulneráveis.</p>
+
+<h3>24/07/2024</h3>
+<p><i>19:46</i>. Foi aí que eu saquei, o token gerado realmente muda com o tempo. Aí bum, poha foi um alivio descobrir o que tava de errado e melhor, para resolver é 
+mais fácil ainda, eu só preciso criar outro script que faz uma requisição GET no GerarToken e pegar do token do dia, e adicionar esse script acima do script de força 
+bruta e pegar o token e colocar no script, assim ele vai funcionar todo dia agora.</p>
+
+<p><i>19:44</i>. E deu ruim, o bruteforce não estava mais conseguindo verificar as senhas, fiquei muito tempo quebrando a cabeça mas para encurtar a historia eu reparei 
+que não tinha nada de errado com o codigo até eu reparar na poha do token. O token é uma ficha encriptada em base64 e ao decriptar, o texto é apenas uma chave com nome 
+e uma ficha temporaria de alguns digitos.</p>
+<h3>23/07/2024</h3>
+<p><i>20:33</i>. A parte estranha é que ele gera o mesmo token então meio que não faz diferencia se gerar o token ou não, é só copiar e colar o token na requisição das 
+credenciais, pois nessa requisição ele manda para o servidor o email, senha e o token. Vou fazer só mais uns testes e irei terminar o dia por hoje.</p>
+
+<p><i>20:32</i>. Tava terminando uns retoques e só encontrei uma coisa estranha no processo de fazer a requisição no script, em uma parte da requisição que eu interceptei 
+antes de fazer o POST para verificar as credenciais o site da faculdade faz um GET em uma pagina chamada GerarToken e na parte que faz o POST das credenciais ele usa o 
+token gerado pelo GET anterior.</p>
+<p><i>14:35</i>. É bem melhor dessa maneira, além de utilizar pouco processamento a dificuldade de replicar a requisição é muito menor com menos chances de errar.</p>
+
+<p><i>14:32</i>. Mudei de ideia, o meu script de Força Bruta sera com requests, consegui replicar a requisição de login interceptando a comunicação com o Burp Suite e replicando no 
+script python. E ele está funcionando muito bem, esta fazendo em média dez requisições por segundo isso quer dizer que ele testa em torno de dez senhas por segundo.</p>
+<h3>19/07/2024</h3>
+<p><i>13:33</i>. Hoje é sexta-feira e amanhã eu e minha familia vamos passar o final de semana na casa do meu primo Vitor, eu particulamente nunca o hackeei, sei lá não tem nada nele 
+que seja enigmático ou que me dê alguma curiosidade o bastante para tentar invadir ele. Enfim faltam 20 dias para eu iniciar meus dias na universidade eu preciso treinar, treinar 
+muito preciso já estar melhor do que meu competidores que estão seguindo o meu mesmo caminho.</p>
+
+<h3>17/07/2024</h3>
+<p><i>22:06</i>. Outra pergunta que você, dev, com certeza também está fazendo. Porque então eu não usei a biblioteca requests e com isso eu poderia fazer o multi threding. Eu até 
+tentei usar o requests, porém, os multiplos dados que eram fornecidos no envio do post eram muito complexos e tinha um javascript de forma que só um navegador conseguiria fazer 
+o login, que me restou apenas usar um bot que emula o navegador.</p>
+
+<p><i>22:02</i>. É dessa maneira que eu pensei para resolver a falta de velocidade de resolução do python. Você que é dev provavelmente está pensando porquê eu simplesmente não usei o 
+multiprocessing ou a biblioteca threading para fazer esse mesmo processo varias vezes simultaneamente? Porque eu estava usando um bot que simulava um navegador então eu não podia 
+fazer a repetição de processos pois a biblioteca playwright, que eu estava usando, não conseguiria realizar a mesma simulação do navegador.</p>
+
+<p><i>21:56</i>. Então sabendo que hackear pessoas na faculdade ia ser mais difícil que na escola, criei um script de Força Bruta em python para hackear as contas dos alunos que eu selecionava 
+a dedo, tive os problemas que tive que superar para concluir o script, por exemplo o python é uma linguagem mais lenta o que faz, em tese, um script para um brute force inviavél em python mas 
+isso não foi um problema para mim, resolvi essa questão criando 8 bots que iriam fazer o mesmo ataque de força bruta porém em partes diferentes da mesma wordlist utilizada, criei então um script 
+em bash que iria quebrar a wordlist, que o usuario escolhia, em 8 partes e em seguida o script bash cordenava os 8 bots a fazerem o ataque nas partes diferentes da wordlist quebrada.</p>
+
+<p><i>21:52</i>. Em casos mais raros onde eu precisava da senha do professor de forma mais urgente, um ataque de força bruta ia levar mais tempo, então em uma tentativa desesperada 
+de hackear meu professor. fiz um phishing todo bagunçado, o pior é que funcionou e então eu tinha conseguido hackear meu professor Rodrigo. Só que no final das contas era só uma armadilha que o 
+marido dele fez para eu perder meu acesso me tirar da rede da escola que eu tinha acesso total, mas eu conto essa historia outro dia</p>
+
+<p><i>21:48</i>. Eu sabia que quando eu começasse as aulas eu ia sentir aquele incomodo com as pessoas que eu conhecesse e iria sentir aquela vontde súbita de hackear e descobrir 
+os segredos daquela pessoa. Na escola era fácil, o sistema de notas do governo é simplesmente muito vulneravel, e as senhas dos alunos eram padrão então eu conseguia CPF, RG e endereço de forma 
+que era só escolher o alvo e entrar, com professores era mais difícil eles tinham senha única, o que também não era um desafio só levava tempo para conseguir informções e montar um dicionario e 
+fazer um ataque simples de força bruta, com ferramenta pronta e tudo mais.</p>
+
+<h3>10/07/2024</h3>
+<p><i>20:44</i>. Meu plano era me esforçar ao maximo para estudar e praticar programão por um mês e faltando mais um mês para começar as aulas ia praticar hacking pra krl, mas como 
+pode ver, não só não aprendi nenhuma linguagem nova como eu também não pratiquei nenhuma tecnica de hacking ou OSINT e cá estou eu me sentindo um script kiddie.</p>
+
+<p><i>20:36</i>. Faltam exetamente 28 dias para começar a faculdade. Nervoso? Não. Tô mais com uma mistura de sentimentos, ao mesmo tempo que eu estou ansioso para começar 
+logo, eu tambem estou com medo e quero que demore. Com certeza você já deve ter sentido isso na escola quando suas ferias estavam prestes a acabar e você sabia que tinha que voltar para 
+aquele lugar horrível denovo e ter que ver aquelas pessoas novamente, até mesmos amigos. A diferença é que estou indo para um lugar novo em uma epoca nova e com metodo de ensino totalmente 
+novo, ou seja, uma sensação que eu nunca senti na vida porque pela primeira vez eu realmente não sei o que me espera.</p>
+</html>
